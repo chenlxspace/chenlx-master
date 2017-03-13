@@ -1,6 +1,0 @@
-2017-03-13 08:56:24 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
-2017-03-13 08:56:24 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
-2017-03-13 08:56:25 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
-2017-03-13 08:56:25 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面slave-dataSource
-2017-03-13 08:56:25 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
-2017-03-13 08:56:25 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
