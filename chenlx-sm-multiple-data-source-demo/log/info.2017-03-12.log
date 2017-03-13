@@ -1,0 +1,73 @@
+2017-03-12 17:01:23 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 17:01:23 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 17:01:24 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 17:01:24 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 17:03:11 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 17:03:11 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 17:03:12 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 17:03:12 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 17:06:01 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 17:06:01 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 17:06:01 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 17:06:02 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 17:06:02 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 17:31:54 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 17:31:55 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 17:31:55 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 17:31:55 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 17:31:55 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 17:35:01 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 17:35:01 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 17:35:01 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 17:35:01 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 17:35:01 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 17:36:38 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 17:36:38 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 17:36:39 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 17:36:39 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 17:36:39 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 17:38:23 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 17:38:23 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 17:38:24 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 17:38:24 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面slave-dataSource
+2017-03-12 17:38:24 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 17:38:24 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 19:42:13 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 19:42:13 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 19:42:14 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 19:42:14 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 19:46:10 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 19:46:10 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 19:46:11 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 19:46:11 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面slave-dataSource
+2017-03-12 19:46:11 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 19:46:11 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 19:49:51 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 19:49:51 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 19:49:52 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 19:49:52 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面slave-dataSource
+2017-03-12 19:49:52 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 19:49:52 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 19:53:10 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 19:53:10 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 19:53:11 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 19:53:11 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面slave-dataSource
+2017-03-12 19:53:11 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 19:53:11 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 20:08:33 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 20:08:33 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 20:08:34 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 20:08:35 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 20:08:35 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 20:09:38 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 20:09:39 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 20:09:39 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 20:09:39 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面slave-dataSource
+2017-03-12 20:09:40 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 20:09:40 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-03-12 20:21:17 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-12 20:21:17 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-12 20:21:18 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面
+2017-03-12 20:21:18 INFO  com.chenlx.sm.demo.core.MultipleDataSourceAspect - 进入切面master-dataSource
+2017-03-12 20:21:18 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-03-12 20:21:18 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

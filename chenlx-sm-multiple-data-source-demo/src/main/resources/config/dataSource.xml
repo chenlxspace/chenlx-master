@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context.xsd
+                        http://www.springframework.org/schema/mvc 
+                        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                        http://www.springframework.org/schema/task 
+                        http://www.springframework.org/schema/task/spring-task.xsd
+                        http://www.springframework.org/schema/tx 
+                        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<beans profile="develop">
+		<bean id="master-dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+			init-method="init" destroy-method="close">
+			<property name="url" value="${db.develop.master.url}" />
+			<property name="username" value="${db.develop.master.username}" />
+			<property name="password" value="${db.develop.master.password}" />
+			<property name="filters" value="stat" />
+		</bean>
+		<bean id="slave-dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+			init-method="init" destroy-method="close">
+			<property name="url" value="${db.develop.slave.url}" />
+			<property name="username" value="${db.develop.slave.username}" />
+			<property name="password" value="${db.develop.slave.password}" />
+			<property name="filters" value="stat" />
+		</bean>
+	</beans>
+
+	<beans profile="test">
+		<bean id="master-dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+			init-method="init" destroy-method="close">
+			<property name="url" value="${db.test.master.url}" />
+			<property name="username" value="${db.test.master.username}" />
+			<property name="password" value="${db.test.master.password}" />
+			<property name="filters" value="stat" />
+		</bean>
+		<bean id="slave-dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+            init-method="init" destroy-method="close">
+            <property name="url" value="${db.test.slave.url}" />
+            <property name="username" value="${db.test.slave.username}" />
+            <property name="password" value="${db.test.slave.password}" />
+            <property name="filters" value="stat" />
+        </bean>
+	</beans>
+
+	<beans profile="product">
+		<bean id="master-dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+			init-method="init" destroy-method="close">
+			<property name="url" value="${db.product.master.url}" />
+			<property name="username" value="${db.product.master.username}" />
+			<property name="password" value="${db.product.master.password}" />
+			<property name="filters" value="stat" />
+		</bean>
+		<bean id="slave-dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+            init-method="init" destroy-method="close">
+            <property name="url" value="${db.product.slave.url}" />
+            <property name="username" value="${db.product.slave.username}" />
+            <property name="password" value="${db.product.slave.password}" />
+            <property name="filters" value="stat" />
+        </bean>
+	</beans>
+	
+</beans>

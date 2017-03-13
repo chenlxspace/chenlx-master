@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context.xsd
+                        http://www.springframework.org/schema/mvc 
+                        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                        http://www.springframework.org/schema/task 
+                        http://www.springframework.org/schema/task/spring-task.xsd
+                        http://www.springframework.org/schema/tx 
+						http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<beans profile="develop">
+		<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+			init-method="init" destroy-method="close">
+			<property name="url" value="${db.develop.url}" />
+			<property name="username" value="${db.develop.username}" />
+			<property name="password" value="${db.develop.password}" />
+			<property name="filters" value="stat" />
+		</bean>
+	</beans>
+	
+	<beans profile="test">
+		<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+			init-method="init" destroy-method="close">
+			<property name="url" value="${db.test.url}" />
+			<property name="username" value="${db.test.username}" />
+			<property name="password" value="${db.test.password}" />
+			<property name="filters" value="stat" />
+		</bean>
+	</beans>
+	
+	<beans profile="product">
+		<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+			init-method="init" destroy-method="close">
+			<property name="url" value="${db.product.url}" />
+			<property name="username" value="${db.product.username}" />
+			<property name="password" value="${db.product.password}" />
+			<property name="filters" value="stat" />
+		</bean>
+	</beans>
+</beans>
